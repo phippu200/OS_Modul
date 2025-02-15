@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "docker build -t os-module .",
+            "group": "build",
+            "presentation": {
+                "reveal" : "always",
+            },
+        }
+    ]
+}
